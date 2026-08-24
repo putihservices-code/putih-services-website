@@ -137,4 +137,35 @@ footer li{margin-bottom:8px;}
   nav ul.open{display:flex;}
   .hamburger{display:block;}
   .nav-cta{display:none;}
+
+  /* --- mobile interface fixes --- */
+  section{padding:52px 0;}               /* tighter vertical rhythm on phones */
+  .topbar{font-size:.75rem;padding:6px 10px;}
+  header{position:static;}               /* sticky bar ate too much screen height */
+  nav{padding:8px 0;}
+  .logo{height:44px;}
+
+  /* hero: stack buttons full-width, no overflow */
+  .hero h1{font-size:clamp(1.7rem,7.5vw,2.4rem);}
+  .hero p.lead{font-size:1rem;}
+  .rating{flex-wrap:wrap;text-align:left;font-size:.82rem;padding:8px 12px;}
+  .hero-img img{height:260px;}
+  .hero .btn{width:100%;margin:0 0 10px !important;display:block;text-align:center;}
+
+  /* trust strip: icon beside text, not stretched */
+  .trust-item{gap:12px;}
+  .trust-icon{min-width:42px;height:42px;font-size:1.2rem;}
+
+  /* cards never narrower than screen (300px min broke small phones) */
+  .cards{grid-template-columns:1fr;gap:20px;}
+  .price-list li{font-size:.88rem;}
+
+  /* gallery: single column on very narrow screens, tap-friendly */
+  .gallery{columns:1;}
 }
+
+@media(min-width:481px) and (max-width:900px){
+  .gallery{columns:2;}
+  .hero .btn{width:auto;margin-right:8px !important;}
+}
+

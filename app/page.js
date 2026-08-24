@@ -56,21 +56,21 @@ const services = [
 ];
 
 const gallery = [
-  ["whatsapp-2026-08-17-at-9-52-54-pm.jpeg", "Aircond Dinding pejabat"],
-  ["whatsapp-2026-08-17-at-9-52-55-pm.jpeg", "Kerja servis"],
-  ["whatsapp-2026-08-17-at-9-52-57-pm-1.jpeg", "Unit dipasang"],
-  ["whatsapp-2026-08-17-at-9-52-58-pm.jpeg", "Pemasangan"],
-  ["whatsapp-2026-08-17-at-9-52-59-pm.jpeg", "Servis chemical"],
-  ["whatsapp-2026-08-17-at-9-53-00-pm.jpeg", "Kerja teknikal"],
-  ["whatsapp-2026-08-17-at-9-53-02-pm.jpeg", "Penyenggaraan"],
-  ["whatsapp-2026-08-17-at-9-53-04-pm.jpeg", "Pembersihan coil"],
-  ["whatsapp-2026-08-17-at-9-53-06-pm.jpeg", "Troubleshooting"],
-  ["whatsapp-2026-08-17-at-9-53-07-pm.jpeg", "Servis berkala"],
-  ["whatsapp-2026-08-17-at-9-54-21-pm.jpeg", "Pemasangan baru"],
-  ["whatsapp-2026-08-17-at-9-55-43-pm.jpeg", "Kerja luar"],
-  ["whatsapp-2026-08-17-at-9-58-22-pm.jpeg", "Teknician di tangga"],
-  ["whatsapp-2026-08-17-at-9-58-24-pm.jpeg", "Outdoor unit"],
-  ["whatsapp-2026-08-17-at-9-58-25-pm.jpeg", "Pemeriksaan unit"],
+  ["whatsapp-image-2026-08-17-at-9-52-54-pm.jpeg", "Aircond Dinding pejabat"],
+  ["whatsapp-image-2026-08-17-at-9-52-55-pm.jpeg", "Kerja servis"],
+  ["whatsapp-image-2026-08-17-at-9-52-57-pm-1.jpeg", "Unit dipasang"],
+  ["whatsapp-image-2026-08-17-at-9-52-58-pm.jpeg", "Pemasangan"],
+  ["whatsapp-image-2026-08-17-at-9-52-59-pm.jpeg", "Servis chemical"],
+  ["whatsapp-image-2026-08-17-at-9-53-00-pm.jpeg", "Kerja teknikal"],
+  ["whatsapp-image-2026-08-17-at-9-53-02-pm.jpeg", "Penyenggaraan"],
+  ["whatsapp-image-2026-08-17-at-9-53-04-pm.jpeg", "Pembersihan coil"],
+  ["whatsapp-image-2026-08-17-at-9-53-06-pm.jpeg", "Troubleshooting"],
+  ["whatsapp-image-2026-08-17-at-9-53-07-pm.jpeg", "Servis berkala"],
+  ["whatsapp-image-2026-08-17-at-9-54-21-pm.jpeg", "Pemasangan baru"],
+  ["whatsapp-image-2026-08-17-at-9-55-43-pm.jpeg", "Kerja luar"],
+  ["whatsapp-image-2026-08-17-at-9-58-22-pm.jpeg", "Teknician di tangga"],
+  ["whatsapp-image-2026-08-17-at-9-58-24-pm.jpeg", "Outdoor unit"],
+  ["whatsapp-image-2026-08-17-at-9-58-25-pm.jpeg", "Pemeriksaan unit"],
 ];
 
 export default function Home() {
