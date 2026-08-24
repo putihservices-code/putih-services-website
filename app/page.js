@@ -8,7 +8,7 @@ const services = [
   {
     tag: "PALING LARIS",
     title: "Aircond Cleaning Services",
-    img: "/images/whatsapp-image-2026-08-17-9-52-54-pm.jpeg",
+    img: "/images/whatsapp-image-2026-08-17-at-9-52-54-pm.jpeg",
     alt: "Servis aircond dinding",
     prices: [
       ["1.0 HP", "RM120"],
@@ -20,7 +20,7 @@ const services = [
   {
     tag: "PEMASANGAN",
     title: "Aircond Installation",
-    img: "/images/whatsapp-image-2026-08-17-9-52-57-pm.jpeg",
+    img: "/images/whatsapp-image-2026-08-17-at-9-52-57-pm.jpeg",
     alt: "Pemasangan aircond",
     prices: [
       ["1.0 HP", "RM350 + RM24/kaki++"],
@@ -32,7 +32,7 @@ const services = [
   {
     tag: "BAIKI PULIH",
     title: "Overhaul & Troubleshooting",
-    img: "/images/whatsapp-image-2026-08-17-9-58-23-pm.jpeg",
+    img: "/images/whatsapp-image-2026-08-17-at-9-58-23-pm.jpeg",
     alt: "Baiki aircond",
     prices: [
       ["Indoor Overhaul (1HP)", "RM200"],
@@ -44,7 +44,7 @@ const services = [
   {
     tag: "WIRING & ELEKTRIKAL",
     title: "Wiring Point & Troubleshooting",
-    img: "/images/whatsapp-image-2026-08-17-9-58-22-pm.jpeg",
+    img: "/images/whatsapp-image-2026-08-17-at-9-58-22-pm.jpeg",
     alt: "Wiring aircond",
     prices: [
       ["Wiring Point + Suis Aircond (2.5mm)", "RM120"],
@@ -56,21 +56,21 @@ const services = [
 ];
 
 const gallery = [
-  ["whatsapp-2026-08-17-9-52-54-pm.jpeg", "Aircond Dinding pejabat"],
-  ["whatsapp-2026-08-17-9-52-55-pm.jpeg", "Kerja servis"],
-  ["whatsapp-2026-08-17-9-52-57-pm-1.jpeg", "Unit dipasang"],
-  ["whatsapp-2026-08-17-9-52-58-pm.jpeg", "Pemasangan"],
-  ["whatsapp-2026-08-17-9-52-59-pm.jpeg", "Servis chemical"],
-  ["whatsapp-2026-08-17-9-53-00-pm.jpeg", "Kerja teknikal"],
-  ["whatsapp-2026-08-17-9-53-02-pm.jpeg", "Penyenggaraan"],
-  ["whatsapp-2026-08-17-9-53-04-pm.jpeg", "Pembersihan coil"],
-  ["whatsapp-2026-08-17-9-53-06-pm.jpeg", "Troubleshooting"],
-  ["whatsapp-2026-08-17-9-53-07-pm.jpeg", "Servis berkala"],
-  ["whatsapp-2026-08-17-9-54-21-pm.jpeg", "Pemasangan baru"],
-  ["whatsapp-2026-08-17-9-55-43-pm.jpeg", "Kerja luar"],
-  ["whatsapp-2026-08-17-9-58-22-pm.jpeg", "Teknician di tangga"],
-  ["whatsapp-2026-08-17-9-58-24-pm.jpeg", "Outdoor unit"],
-  ["whatsapp-2026-08-17-9-58-25-pm.jpeg", "Pemeriksaan unit"],
+  ["whatsapp-2026-08-17-at-9-52-54-pm.jpeg", "Aircond Dinding pejabat"],
+  ["whatsapp-2026-08-17-at-9-52-55-pm.jpeg", "Kerja servis"],
+  ["whatsapp-2026-08-17-at-9-52-57-pm-1.jpeg", "Unit dipasang"],
+  ["whatsapp-2026-08-17-at-9-52-58-pm.jpeg", "Pemasangan"],
+  ["whatsapp-2026-08-17-at-9-52-59-pm.jpeg", "Servis chemical"],
+  ["whatsapp-2026-08-17-at-9-53-00-pm.jpeg", "Kerja teknikal"],
+  ["whatsapp-2026-08-17-at-9-53-02-pm.jpeg", "Penyenggaraan"],
+  ["whatsapp-2026-08-17-at-9-53-04-pm.jpeg", "Pembersihan coil"],
+  ["whatsapp-2026-08-17-at-9-53-06-pm.jpeg", "Troubleshooting"],
+  ["whatsapp-2026-08-17-at-9-53-07-pm.jpeg", "Servis berkala"],
+  ["whatsapp-2026-08-17-at-9-54-21-pm.jpeg", "Pemasangan baru"],
+  ["whatsapp-2026-08-17-at-9-55-43-pm.jpeg", "Kerja luar"],
+  ["whatsapp-2026-08-17-at-9-58-22-pm.jpeg", "Teknician di tangga"],
+  ["whatsapp-2026-08-17-at-9-58-24-pm.jpeg", "Outdoor unit"],
+  ["whatsapp-2026-08-17-at-9-58-25-pm.jpeg", "Pemeriksaan unit"],
 ];
 
 export default function Home() {
@@ -136,7 +136,7 @@ export default function Home() {
             <a className="btn btn-outline" href="#perkhidmatan" style={{ marginLeft: 8 }}>Lihat Harga</a>
           </div>
           <div className="hero-img">
-            <img src="/images/whatsapp-image-2026-08-17-9-58-22-pm.jpeg" alt="Juruteknik Putih Services memasang aircond" />
+            <img src="/images/whatsapp-image-2026-08-17-at-9-58-22-pm.jpeg" alt="Juruteknik Putih Services memasang aircond" />
           </div>
         </div>
       </section>
