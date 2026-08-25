@@ -3,6 +3,8 @@
 import { useState } from "react";
 
 const WA = "https://wa.me/601123987564";
+// Set to "/putih-services-website" during the GitHub Pages production build
+const BP = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const services = [
   {
@@ -99,7 +101,7 @@ export default function Home() {
         <div className="container">
           <nav>
             <a href="#home">
-              <img src="/images/logo-2.png" alt="Putih Services" className="logo" />
+              <img src={BP + "/images/logo-2.png"} alt="Putih Services" className="logo" />
             </a>
             <ul id="menu" className={menuOpen ? "open" : ""}>
               <li><a href="#home">Utama</a></li>
@@ -136,7 +138,7 @@ export default function Home() {
             <a className="btn btn-outline" href="#perkhidmatan" style={{ marginLeft: 8 }}>Lihat Harga</a>
           </div>
           <div className="hero-img">
-            <img src="/images/whatsapp-image-2026-08-17-at-9-58-22-pm.jpeg" alt="Juruteknik Putih Services memasang aircond" />
+            <img src={BP + "/images/whatsapp-image-2026-08-17-at-9-58-22-pm.jpeg"} alt="Juruteknik Putih Services memasang aircond" />
           </div>
         </div>
       </section>
@@ -235,7 +237,7 @@ export default function Home() {
           </div>
           <div className="gallery">
             {gallery.map(([file, alt], i) => (
-              <img key={i} src={`/images/${file}`} alt={alt} />
+              <img key={i} src={`${BP}/images/${file}`} alt={alt} />
             ))}
           </div>
         </div>
@@ -323,7 +325,7 @@ export default function Home() {
         <div className="container">
           <div className="footer-grid">
             <div>
-              <img src="/images/logo-2.png" alt="Putih Services" style={{ height: 60, marginBottom: 14 }} />
+              <img src={BP + "/images/logo-2.png"} alt="Putih Services" style={{ height: 60, marginBottom: 14 }} />
               <p>Pakar servis, pemasangan dan baiki aircond untuk kediaman dan komersial. Pantas, bersih, harga telus.</p>
             </div>
             <div>
