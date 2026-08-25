@@ -10,7 +10,7 @@ const services = [
   {
     tag: "PALING LARIS",
     title: "Aircond Cleaning Services",
-    img: "/images/whatsapp-image-2026-08-17-at-9-52-54-pm.jpeg",
+    img: `${BP}/images/whatsapp-image-2026-08-17-at-9-52-54-pm.jpeg`,
     alt: "Servis aircond dinding",
     prices: [
       ["1.0 HP", "RM120"],
@@ -22,7 +22,7 @@ const services = [
   {
     tag: "PEMASANGAN",
     title: "Aircond Installation",
-    img: "/images/whatsapp-image-2026-08-17-at-9-52-57-pm.jpeg",
+    img: `${BP}/images/whatsapp-image-2026-08-17-at-9-52-57-pm.jpeg`,
     alt: "Pemasangan aircond",
     prices: [
       ["1.0 HP", "RM350 + RM24/kaki++"],
@@ -34,7 +34,7 @@ const services = [
   {
     tag: "BAIKI PULIH",
     title: "Overhaul & Troubleshooting",
-    img: "/images/whatsapp-image-2026-08-17-at-9-58-23-pm.jpeg",
+    img: `${BP}/images/whatsapp-image-2026-08-17-at-9-58-23-pm.jpeg`,
     alt: "Baiki aircond",
     prices: [
       ["Indoor Overhaul (1HP)", "RM200"],
@@ -46,7 +46,7 @@ const services = [
   {
     tag: "WIRING & ELEKTRIKAL",
     title: "Wiring Point & Troubleshooting",
-    img: "/images/whatsapp-image-2026-08-17-at-9-58-22-pm.jpeg",
+    img: `${BP}/images/whatsapp-image-2026-08-17-at-9-58-22-pm.jpeg`,
     alt: "Wiring aircond",
     prices: [
       ["Wiring Point + Suis Aircond (2.5mm)", "RM120"],

@@ -23,19 +23,19 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: nextjs-app/package-lock.json
+          cache-dependency-path: package-lock.json
       - name: Install dependencies
-        working-directory: nextjs-app
+        working-directory: .
         run: npm ci
       - name: Build static site
-        working-directory: nextjs-app
+        working-directory: .
         env:
           NEXT_PUBLIC_BASE_PATH: /putih-services-website
         run: npx next build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: nextjs-app/out
+          path: out
 
   deploy:
     needs: build
