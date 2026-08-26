@@ -299,7 +299,7 @@ export default function Home() {
             <div className="contact-line">📞 <span><b>Telefon / WhatsApp:</b><br />+60 11-239 87564</span></div>
             <div className="contact-line">🕐 <span><b>Waktu Operasi:</b><br />Isnin – Sabtu, 9:00 pagi – 6:00 petang</span></div>
             <div className="contact-line">📍 <span><b>Kawasan Liputan:</b><br />Lembah Klang, Putrajaya &amp; Cyberjaya</span></div>
-            <div className="contact-line">✉️ <span><b>Email:</b><br />hello@putihservices.my</span></div>
+            <div className="contact-line">✉️ <span><b>Email:</b><br />putihservice@gmail.com</span></div>
           </div>
           <form onSubmit={sendWA}>
             <input type="text" id="fname" placeholder="Nama Anda" required />
