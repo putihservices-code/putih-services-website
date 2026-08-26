@@ -13,7 +13,7 @@ const services = [
     img: `${BP}/images/whatsapp-image-2026-08-17-at-9-52-54-pm.jpeg`,
     alt: "Servis aircond dinding",
     prices: [
-      ["1.0 HP", "RM120"],
+      ["1.0 HP", "RM99 (Promosi)"],
       ["1.5 HP", "RM130"],
       ["2.0 HP", "RM150"],
     ],
